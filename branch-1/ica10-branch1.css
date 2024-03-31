@@ -1,1 +1,36 @@
-/* TEAMMATE ONE EDITS THESE STYLES FOR YOUR TASKS */
+/* TEAMMATE ONE EDITS THESE STYLES FOR YOUR TASKS
+Jake Hoopes */
+
+/* task 1 */
+.logo {
+    background-color: #f4f4f4
+}
+.logo {
+    transform: rotate(0deg) scale(1);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: rotate(15deg) scale(1.4);
+}
+/* task 2 */
+.box-4 {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: large;
+    align-content: center;
+    
+    }
+.fancy-link {
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+}
+
+.fancy-link:hover{
+    background-size: 100% 3px;
+    font-weight: 900;
+    text-decoration: none;
+}
