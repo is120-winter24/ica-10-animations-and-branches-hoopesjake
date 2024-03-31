@@ -2,34 +2,69 @@
 
 /* Task 3 */
 @keyframes moveSquare {
-    0% {grid-column: 3; grid-row: 1; background-color: red;}
-    16.67% {grid-column: 3; grid-row: 2; background-color: orange;}
-    33.3% {grid-column: 2; grid-row: 2; background-color: yellow;}
-    50% {grid-column: 1; grid-row: 2; background-color: green;}
-    66.67% {grid-column: 1; grid-row: 1; background-color: blue;}
-    83.3% {grid-column: 2; grid-row: 1; background-color: purple;}
-    100% {grid-column: 3; grid-row: 1; background-color: red;}
+  0% {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: red;
+  }
+
+  16.67% {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: orange;
+  }
+
+  33.3% {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: yellow;
+  }
+
+  50% {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: green;
+  }
+
+  66.67% {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blue;
+  }
+
+  83.3% {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: purple;
+  }
+
+  100% {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: red;
+  }
 }
-  
+
 .box-3 {
-    animation: moveSquare 8s infinite;
+  animation: moveSquare 8s infinite;
 }
 
 /* Task 4 */
 @keyframes scrollIn {
-    0% {
-      transform: translateX(100%) translateY(100%);
-      opacity: 0;
-    }
-    25% {
-      transform: translateX(0) translateY(0);
-      opacity: 1;
-    }
+  0% {
+    transform: translateX(100%) translateY(100%);
+    opacity: 0;
   }
-  
+
+  25% {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
 aside {
-    position: fixed;
-    bottom: 2.5vh;
-    right: 2.5vh;
-    animation: scrollIn 10s linear infinite;
-  }
+  position: fixed;
+  bottom: 2.5vh;
+  right: 2.5vh;
+  animation: scrollIn 10s linear infinite;
+}
